@@ -1,7 +1,7 @@
 import codecs
 import datetime, time
 
-file = "C:\\Users\\edvin\\OneDrive\\Desktop\\Cyber Sec\\CyberSecurity.pcap"
+file = "C:\\Users\\edvin\\OneDrive\\Desktop\\Cyber Sec\\CyberSecurity.pcap" #change loc 
 pcapfile = open(file, "rb")
 
 def reverse(data):                  #function for reversing the bytes and for translating them into hexadecimals
